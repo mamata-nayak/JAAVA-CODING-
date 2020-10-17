@@ -8,16 +8,12 @@ public class Arraylistcode {
 	
 	
 public static void  main(String [] arg) {	
-	ArrayList<Integer> nums= new ArrayList<>();
-	nums.add(13);
-	nums.add(38);
-	nums.add(57);
-	nums.add(13);
-	nums.add(8);
-	nums.add(67);
-	nums.remove(new Integer(84));
+	ArrayList<String> names = new ArrayList<>();
+	names.add("mamata");
+	names.add("Ishi");
+	names.add("Jyoti");
 	
-	Iterator<Integer>it=nums.iterator();
+	Iterator<String> it=names.iterator();
 	while(it.hasNext())
 
 	System.out.println(it.next());
